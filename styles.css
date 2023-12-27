@@ -1,6 +1,107 @@
+body {
+    background: #F6F6FA;
+    padding: 40px 40px 40px 40px;
+}
+
+
+
+
+
 a {
     text-decoration: none;
 }
+
+h3 {
+    color: #000;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+
+.wrapper-div {
+    background: #FFF;
+    display: flex;
+    flex-direction: row;
+}
+
+/* My info */
+
+.my-info-title {
+    color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px;
+}
+
+.main-title {
+    color: #000;
+        font-family: Montserrat;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55px;
+}
+
+.my-info-text {
+    color: #595959;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+}
+
+/* My projects */
+
+.projects-list {
+    color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+}
+
+.projects-list-item {
+    color: #595959;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+}
+
+
+.projects-link {
+    color: #005FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .icon-svg-team {
     fill: f4f4fd;
