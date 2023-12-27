@@ -131,6 +131,7 @@ a {
     font-weight: 700;
     line-height: 27px;
     margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .lang-list {
@@ -156,7 +157,7 @@ a {
     font-weight: 700;
     line-height: 27px;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .second-work-title {
@@ -168,6 +169,111 @@ a {
     margin-bottom: 12px;
 }
 
+.work-span {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.work-text {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.work-text-span {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.work-list {
+    padding-left: 18px;
+}
+
+.work-list-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Education Styles */
+
+.education-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.college-div {
+    margin-bottom: 40px;
+}
+
+.college-title {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.department-title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.education-text {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+
+.goit-title {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.block-title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.goit-text {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 
 /* Sidebar styles */
