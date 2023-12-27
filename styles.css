@@ -12,13 +12,13 @@ a {
     text-decoration: none;
 }
 
-h3 {
+/* h3 {
     color: #000;
         font-size: 22px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-}
+} */
 
 .wrapper-div {
     background: #FFF;
@@ -88,6 +88,7 @@ h3 {
         line-height: 24px;
         text-decoration-line: underline;
 }
+
 .projects-link:hover,
 .projects-link:focus {
     color:purple;
@@ -112,7 +113,33 @@ h3 {
     box-sizing: border-box;
 }
 
+/* Contacts styles */
 
+.contacts-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.span-contact {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
+
+.contacts-div {
+    margin-bottom: 40px;
+}
+
+.contacts-text {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
 
 
 
