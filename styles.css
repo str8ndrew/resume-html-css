@@ -37,12 +37,18 @@ a {
 
 /* My info */
 
+.my-info-div {
+    margin-bottom: 40px;
+}
+
 .my-info-title {
     color: #000;
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
         line-height: 17px;
+        margin-top: 0;
+        margin-bottom: 8px;
 }
 
 .main-title {
@@ -51,6 +57,8 @@ a {
         font-style: normal;
         font-weight: 700;
         line-height: 55px;
+        margin-top: 0;
+        margin-bottom: 12px;
 }
 
 .my-info-text {
@@ -59,34 +67,50 @@ a {
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
+        margin-top: 0;
 }
 
 /* My projects */
 
-.projects-list {
+.projects-div {
+    margin-bottom: 40px;
+}
+
+.projects-title {
     color: #000;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 24px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.projects-list {
+ padding-left: 18px;
 }
 
 .projects-list-item {
-    color: #595959;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 
 .projects-link {
     color: #005FFF;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        text-decoration-line: underline;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.span-link {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .projects-link:hover,
@@ -94,6 +118,56 @@ a {
     color:purple;
     transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* Languages styles */
+
+.lang-div {
+    margin-bottom: 40px;
+}
+
+.lang-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+}
+
+.lang-list {
+    padding-left: 18px;
+}
+
+.lang-list-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Work Experience */
+
+.work-div {
+    margin-bottom: 40px;
+}
+
+.work-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.second-work-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
 
 
 /* Sidebar styles */
@@ -141,7 +215,57 @@ a {
     margin-bottom: 4px;
 }
 
+/* Tech Skills */
 
+.tech-div {
+    margin-bottom: 40px;
+}
+
+.tech-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.tech-list {
+    padding-left: 18px;
+}
+
+.tech-list-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* .tech-list-item::marker {
+    color: #0000ee;
+} */
+
+/* Soft Skills */
+
+.soft-title {
+    color: #161D2A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.soft-list {
+    padding-left: 18px;
+}
+
+.soft-list-item {
+    color: #161D2A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 .sidebar-link:hover,
 .sidebar-link:focus {
@@ -174,8 +298,7 @@ color: purple;
 .icon-svg-team {
 background-color: orangered;
     border-radius: 50%;
-  align-items: center;
-    border: white;
+    border: white; 
 }
 
 .icon-svg-team:hover,
