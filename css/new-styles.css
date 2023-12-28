@@ -569,5 +569,32 @@ a {
    .tech-div {
        margin-bottom: 40px;
    }
-   
+
+}
+
+
+
+/* ----------------DESKTOP VERSION---------------- */
+
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;  
+    }
+
+    .main-container {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .sidebar {
+        width: 420px;
+    }
+
+    .sidebar-content {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
