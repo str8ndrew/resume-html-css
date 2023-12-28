@@ -296,13 +296,15 @@ a {
     margin-right: auto;
 }
 
-
-
 .sidebar-content {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
     box-sizing: border-box;
+}
+
+.sidebar-photo {
+    display: none;
 }
 
 /* Contacts styles */
@@ -450,6 +452,10 @@ a {
     text-align: left;
    }
 
+   .info-photo {
+    display: none;
+   }
+
    .projects-div {
        margin-bottom: 40px;
    }
@@ -533,6 +539,10 @@ a {
        padding-left: 20px;
        padding-right: 20px;
        padding-top: 40px;
+   }
+
+   .sidebar-photo {
+    display: block;
    }
 
    .contacts-title {
