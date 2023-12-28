@@ -4,13 +4,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* .container {
-    max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-
 
 
 a {
@@ -345,10 +338,6 @@ a {
     line-height: 24px;
 }
 
-/* .tech-list-item::marker {
-    color: #0000ee;
-} */
-
 /* Soft Skills */
 
 .soft-title {
@@ -380,18 +369,6 @@ color: purple;
 .inst-link {
     color: #0000ee;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .icon-svg-team {
