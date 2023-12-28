@@ -19,8 +19,8 @@ a {
 
 
 .main-container {
-    padding-left: 88px;
-    padding-right: 40px;
+    padding-left: 40px;
+    padding-right: 150px;
     padding-top: 80px;
     padding-bottom: 80px;
     box-sizing: border-box;
@@ -34,7 +34,7 @@ a {
 
 .my-info-title {
     color: #6D9BF5;
-        font-size: 14px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
         line-height: 17px;
@@ -44,7 +44,7 @@ a {
 
 .main-title {
     color: #000;
-        font-size: 45px;
+        font-size: 35px;
         font-style: normal;
         font-weight: 700;
         line-height: 55px;
