@@ -538,6 +538,26 @@ a {
        padding-top: 40px;
    }
 
+   .contacts-title {
+    text-align: left;
+   }
+
+   .tech-title {
+    text-align: left;
+   }
+
+   .tech-list {
+    padding-left: 15px;
+   }
+
+   .soft-title {
+    text-align: left;
+   }
+
+   .soft-list {
+    padding-left: 15px;
+   }
+
    .icon-svg-team {
     display: none;
    }
@@ -549,14 +569,5 @@ a {
    .tech-div {
        margin-bottom: 40px;
    }
-
-
-
-
-
-
-
-
-
-
+   
 }
