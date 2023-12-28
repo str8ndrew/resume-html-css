@@ -396,14 +396,11 @@ a {
 
 
 .icon-svg-team {
-    fill: f4f4fd;
-    stroke: f4f4fd;
-}
-
-.icon-svg-team {
     background-color: orangered;
-    border-radius: 50%;
-    border: white;
+    border: transparent;
+    border-radius: 10%;
+    /* fill: orangered;
+    stroke: orangered; */
 }
 
 .icon-svg-team:hover,
@@ -597,4 +594,9 @@ a {
         padding-left: 40px;
         padding-right: 40px;
     }
+
+    .icon-svg-team {
+        display: inline;
+    }
+    
 }
