@@ -115,7 +115,7 @@ a {
 .projects-link:hover,
 .projects-link:focus {
     color: purple;
-    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -389,26 +389,21 @@ a {
 .sidebar-link:hover,
 .sidebar-link:focus {
     color: purple;
-    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .inst-link {
     color: #0000ee;
 }
 
-
 .icon-svg-team {
-    background-color: orangered;
-    border: transparent;
-    border-radius: 10%;
-    /* fill: orangered;
-    stroke: orangered; */
+    fill: orangered;
 }
 
 .icon-svg-team:hover,
 .icon-svg-team:focus {
-    background-color: purple;
-    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: purple;
+    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ---------------TABLET STYLES--------------- */
