@@ -394,6 +394,9 @@ a {
 
 .inst-link {
     color: #0000ee;
+    display: inline-flex;
+    gap: 4px;
+    align-items: center;
 }
 
 .icon-svg-team {
